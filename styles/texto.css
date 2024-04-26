@@ -1,0 +1,104 @@
+.grid-container4 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 50px;
+    background-color: rgb(249, 200, 78);
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.grid-container4 > div {
+    margin: 15px;
+    background-color: white;
+    padding: 15px;
+}
+.grid-container3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    background-color: rgb(249, 200, 78);
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.grid-container3 > div {
+    margin: 15px;
+    background-color: white;
+    padding: 15px;
+}
+.grid-container5 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 50px;
+    background-color: rgb(249, 200, 78);
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.grid-container5 > div {
+    margin: 15px;
+    background-color: white;
+    padding: 15px;
+}
+
+h5 {
+    text-align: center;
+    color: rgba(255, 21, 0, 0.542);
+}
+
+.Left {
+    text-align: left;
+}
+.Right {
+    text-align: right;
+}
+.Center {
+    text-align: center;
+}
+.Justify {
+    text-align: justify;
+}
+
+h4 {
+    margin: 24px 0 10px 0;
+    font-size: 24px;
+}
+
+.overline{
+    text-decoration: overline;
+}
+.line-through{
+    text-decoration: line-through;
+}
+.underline{
+    text-decoration: underline;
+}
+.overline-underline{
+    text-decoration: overline underline;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.capitalize {
+    text-transform: capitalize;
+}
+
+.Serif {
+    font-family: Serif;
+}
+.Sans-serif {
+    font-family: sans-serif;
+}
+.Monospace {
+    font-family: monospace;
+}
+.Cursive {
+    font-family: "lucida handwriting", monospace;
+}
+.Fantasy {
+    font-family: fantasy;
+}

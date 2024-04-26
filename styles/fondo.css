@@ -1,0 +1,36 @@
+.grid-container3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    background-color: rgb(254, 202, 68);
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.grid-container3 > div {
+    width: 25vw;
+    height: 50vh;
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid rgb(190, 190, 190);
+}
+
+.center {
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+    font-size: 23px;
+    color: white;
+}
+
+.pleno {
+    background-color: rgb(73, 150, 252);
+}
+.gradiente {
+    background: linear-gradient(to right, rgb(57, 249, 242), rgb(250, 186, 47));
+}
+.imagen {
+    background: url(../assets/img/imagen.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}

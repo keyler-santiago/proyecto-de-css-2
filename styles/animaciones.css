@@ -1,0 +1,44 @@
+h4 {
+    text-align: center;
+    color: rgb(172, 75, 241);
+}
+
+.cajita {
+    margin: 0 25px;
+    border: 2px solid rgb(172, 172, 172);
+    width: 25px;
+    height: 25px;
+    position: relative;
+}
+
+@keyframes  ejemplo {
+    from {
+        left: 75%;
+        background: linear-gradient(to right, rgb(250, 186, 47), rgb(57, 249, 242));
+    }
+
+    to {
+        left: 25%;
+        background: linear-gradient(to right, rgb(57, 249, 242), rgb(250, 186, 47));
+    }
+}
+
+.linear {
+    animation: ejemplo 2s linear infinite alternate;
+}
+
+.ease {
+    animation: ejemplo 2s ease infinite alternate;
+}
+
+.ease-in {
+    animation: ejemplo 2s ease-in infinite alternate;
+}
+
+.ease-out {
+    animation: ejemplo 2s ease-out infinite alternate;
+}
+
+.ease-in-out {
+    animation: ejemplo 2s ease-in-out infinite alternate;
+}
